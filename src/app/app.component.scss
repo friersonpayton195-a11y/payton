@@ -64,6 +64,16 @@
   --ig-size: var(--ig-size-medium);
   height: max-content;
 }
+.button_1 {
+  --foreground: var(--ig-primary-50);
+  --background: var(--ig-primary-50);
+  --ig-size: var(--ig-size-medium);
+  margin: 100px;
+  width: min-content;
+  height: max-content;
+  min-width: min-content;
+  max-width: min-content;
+}
 .user-drop-down {
   left: 1813px;
   top: 48px;
