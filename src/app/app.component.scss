@@ -1,0 +1,113 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.navbar {
+  --igx-navbar-text-color: var(--ig-surface-500);
+  --igx-navbar-background: var(--ig-primary-500);
+  height: max-content;
+  min-width: min-content;
+}
+.nav-drawer {
+  min-width: min-content;
+  min-height: 0;
+  max-width: 240px;
+  flex-shrink: 0;
+}
+.view-container {
+  overflow: auto;
+  position: relative;
+  flex-grow: 1;
+}
+.navbar-content {
+  gap: 1rem;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.icon-button {
+  --foreground: var(--ig-surface-500);
+}
+.icon-button_1 {
+  --foreground: white;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  padding: 24px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.rating {
+  width: max-content;
+  height: max-content;
+}
+.date-picker {
+  height: max-content;
+  min-width: 120px;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.user-drop-down {
+  left: 1813px;
+  top: 48px;
+  position: absolute;
+  min-width: min-content;
+}
+.icon {
+  color: var(--ig-surface-500);
+}
+.content {
+  height: max-content;
+  min-width: min-content;
+}
+.icon_1 {
+  color: white;
+}
+.avatar {
+  --igx-avatar-background: transparent;
+}
+.icon_2 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-height: 50px;
+  flex-grow: 1;
+}
+.card {
+  --header-text-color: var(--ig-card-header-text-color, hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1));
+  --subtitle-text-color: var(--ig-card-subtitle-text-color, lch(from hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1) calc(l + (50 - l) * 0.1 + sign(50 - l) * 7) c h));
+  --content-text-color: var(--ig-card-content-text-color, lch(from hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1) calc(l + (50 - l) * 0.1 + sign(50 - l) * 7) c h));
+  --actions-text-color: var(--ig-card-actions-text-color, hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1));
+  --background: var(--ig-card-background, var(--surface-500));
+  width: 320px;
+  height: max-content;
+  min-width: 320px;
+  max-width: 320px;
+}
